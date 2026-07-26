@@ -10,9 +10,9 @@
   ],
   "plugins": [
     {
-      "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/MovieBoxProvider.cs3",
+      "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/MovieBoxProvider.cs3ii",
       "status": 1,
-      "version": 26,
+      "version": 27,
       "name": "MovieBoxProvider",
       "internalName": "MovieBoxProvider",
       "authors": [
