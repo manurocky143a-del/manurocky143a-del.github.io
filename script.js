@@ -52,4 +52,23 @@ document.addEventListener('DOMContentLoaded', () => {
         el.style.transition = "all 0.6s ease-out";
         observer.observe(el);
     });
+
+    // Video Player & Ad Configuration (ExoClick VAST In-Stream Tag)
+    const playerConfig = {
+        autoplay: false,
+        controls: true,
+        vastOptions: {
+            adTagUrl: "https://s.magsrv.com/v1/vast.php?idz=5987880",
+            adList: [
+                {
+                    roll: "preRoll",
+                    vastTag: "https://s.magsrv.com/v1/vast.php?idz=5987880"
+                }
+            ]
+        }
+    };
+
+    window.playerConfig = playerConfig;
+    window.vastOptions = playerConfig.vastOptions;
 });
+
