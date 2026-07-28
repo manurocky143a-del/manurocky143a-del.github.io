@@ -4,7 +4,7 @@
   "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/RepoIcon.png",
   "manifestVersion": 1,
   "version": 1,
-  "repository": "https://cinemaxapp.shop/config.json",
+  "repository": "https://raw.githubusercontent.com/manurocky143a-del/manurocky143a-del.github.io/main/config.json",
   "pluginLists": [
     "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
   ],
