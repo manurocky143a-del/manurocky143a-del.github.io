@@ -1,0 +1,13 @@
+{
+  "mobile": {
+    "jio": {
+      "extension": "iStreamFlare"
+    },
+    "default": {
+      "extension": "MovieBox"
+    }
+  },
+  "wifi": {
+    "extension": "MovieBox"
+  }
+}
