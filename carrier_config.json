@@ -1,13 +1,26 @@
 {
-  "mobile": {
-    "jio": {
-      "extension": "iStreamFlare"
+  "groups": {
+    "moviebox": {
+      "title": "MovieBox",
+      "providers": [
+        "MovieBox"
+      ],
+      "networks": [
+        "airtel",
+        "vi",
+        "bsnl",
+        "wifi"
+      ]
     },
-    "default": {
-      "extension": "MovieBox"
+    "istreamflare": {
+      "title": "iStreamFlare",
+      "providers": [
+        "iStreamFlare"
+      ],
+      "networks": [
+        "jio"
+      ]
     }
   },
-  "wifi": {
-    "extension": "MovieBox"
-  }
+  "defaultGroup": "moviebox"
 }
